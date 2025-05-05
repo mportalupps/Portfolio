@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Trabalho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="imagens/logo.png" class="logo">
+    <span class="cabeçalho1">Meu</span><span class="cabeçalho2">Portfólio</span>
+  </header>
+
+  <div style="background-color: #add8e6; font-size: 45px;">
+    <ul class="menu">
+      <li><a href="#" onclick="mostrarSecao('inicio')">Menu</a></li>
+      <li><a href="#" onclick="mostrarSecao('sobre')">Sobre mim</a></li>
+      <li><a href="#" onclick="mostrarSecao('formacao')">Formação</a></li>
+      <li><a href="#" onclick="mostrarSecao('portfolio')">Portfólio</a></li>
+      <li><a href="#" onclick="mostrarSecao('contato')">Contato</a></li>
+    </ul>
+  </div>
+
+  <main class="principal">
+    <section id="inicio" class="secao">
+      <div class="texto1">
+        <h1>
+          Bem-vindo ao meu site!
+        </h1>
+        <br>
+        <p>
+          Esse site é um espaço para você conhecer um pouco mais sobre mim. Aqui, você vai encontrar informações sobre minha formação, 
+          alguns projetos que já fiz e também um jeito fácil de entrar em contato. 
+          O objetivo é deixar tudo bem claro e direto, para você entender melhor quem sou e o que faço.
+        </p>
+      </div>
+      <div class="imgDireito">
+        <img src="imagens/euTI.png">
+      </div>
+    </section>
+
+    <section id="sobre" class="secao" style="display: none;">
+      <div class="containerGeral">
+        <div class="bloco1">
+          <div class="texto1">
+            <h2>Sobre mim</h2>
+            <br>
+            <p>Eu sou uma pessoa super extrovertida, carismática e que adora estar rodeada de amigos! 
+              Gosto de fazer novas amizades, conversar sobre qualquer assunto e estou sempre pronto pra uma boa risada. 
+              Festas, encontros com amigos e momentos de diversão fazem parte da minha essência 
+              <br><br>  
+              Ser social não é só um traço meu, é uma forma de viver e aproveitar cada momento com leveza e energia positiva!
+            </p>
+          </div>
+          <aside class="imgCima">
+            <img src="imagens/amigosFelizes.png">
+          </aside>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="bloco2">
+          <section>
+            <h2>Hobbies</h2>
+            <br>
+            <p>
+              Meus hobbies dizem muito sobre quem eu sou. Sou apaixonado por carros, especialmente pelo meu, 
+              com o qual tenho uma conexão verdadeira — cuidar dele, personalizar e curtir cada detalhe é algo que me dá prazer de verdade. 
+              Também sou fascinado por internet e tecnologia, sempre buscando novidades, aprendendo e explorando tudo o que esse mundo digital tem a oferecer. 
+              São essas coisas que me inspiram e me fazem querer estar sempre em movimento.
+            </p>
+          </section>
+
+          <aside class="imgBaixo">
+            <img src="imagens/Fiesta.jpeg">
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  
+    <section id="formacao" class="secao" style="display: none;">
+      <h2>Minha Formação</h2>
+      <br>
+      <br>
+      
+      <div>
+        <h3>Ensino Fundamental:</h3>
+        <p><strong>Instituição: </strong>E.M.E.F. Cidade Nova</p>
+        <p><strong>Período: </strong>2011 - 2019</p>
+
+        <img src="imagens/EMEFCidadeNova.jpg">
+      </div>
+
+      <br>
+      <br>
+      <br>
+
+      <div>
+        <h3>Ensino Médio:</h3>
+        <p><strong>Instituição: </strong>IFSul - Câmpus Venâncio Aires</p>
+        <p><strong>Curso: </strong>Técnico em Informática</p>
+        <p><strong>Período: </strong>2020 - 2023</p>
+
+        <img src="imagens/IFSulCampus.jpg">
+      </div>
+
+      <br>
+      <br>
+      <br>
+
+      <div>
+        <h3>Ensino Superior:</h3>
+        <p><strong>Instituição: </strong>IFSul - Câmpus Venâncio Aires</p>
+        <p><strong>Curso: </strong>Bacharelado em Engenharia de Software</p>
+        <p><strong>Período: </strong>2024 - atualmente</p>
+
+        <img src="imagens/Uninter.jpg">
+      </div>
+
+      <br>
+      <br>
+      <br>
+
+      <div>
+        <h3>Curso:</h3>
+        <p><strong>Instituição: </strong>FISK - Venâncio Aires</p>
+        <p><strong>Curso: </strong>Inglês</p>
+        <p><strong>Período: </strong>2019 - 2024</p>
+
+        <img src="imagens/FISK.jpg">
+      </div>
+    </section>
+  
+    <section id="portfolio" class="secao" style="display: none;">
+      <div class="projetos">
+        <h2>Portfólio</h2>
+        <br>
+        <br>
+        <h3>Meus projetos:</h3>
+        <br>
+        <br>
+
+        <div class="cofrinho">
+          <h4>Aplicação Java - Cofrinho Virtual</h4>
+          <br>
+          <img src="imagens/ProgramaCofrinho.png">
+          <p>Projeto simples em Java, utilizando Orientação a Objetos para simular um cofrinho com diferentes tipos de moedas. 
+            Permite adicionar, remover, listar e converter as moedas.
+          </p>
+          <a href="https://github.com/mportalupps/Cofrinho" target="_blank">Ver código no GiHub</a>
+        </div>
+      </div>
+    </section>
+  
+    <section id="contato" class="secao" style="display: none;">
+      <div class="contatos1">
+        <h2>Entre em contato por:</h2>
+        <p>📧 Email: matheusportaluppi09@gmail.com</p>
+        <p>📱 Telefone WhatsApp: (51) 99543-2617</p>
+        <p>📍 Cidade: Venâncio Aires - RS</p>
+      </div>
+
+      <div class="redesSociais">
+        <div class="insta">
+          <img src="imagens/logoInstagram.png">
+          <a href="https://www.instagram.com/mportalupps_20/" target="_blank">Instagram</a>
+        </div>
+        <br>
+        <div class="face">
+          <img src="imagens/logoFacebook.png">
+          <a href="https://www.facebook.com/matheus.portaluppi.9/" target="_blank">Facebook</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function mostrarSecao(id) {
+      const secoes = document.querySelectorAll('.secao');
+      secoes.forEach(secao => secao.style.display = 'none');
+      document.getElementById(id).style.display = 'flex';   
+    }
+  </script>
+
+  <footer class="rodape">
+    <p>© 2025 Matheus Jahnke Portaluppi • Feito com HTML e CSS 💻</p>
+  </footer>
+</body>
+</html>
